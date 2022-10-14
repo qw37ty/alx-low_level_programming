@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int n = 48;
+	int i = '0';
 
-	while (n <= 57)
+	while (i <= '9')
 	{
-		putchar(n);
-		n += 1;
+		putchar(i);
+		i++;
 	}
 	printf("\n");
 	return (0);
